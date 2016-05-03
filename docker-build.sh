@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo docker build -t codecentric-cv-latex .
-sudo docker run --rm -v $(pwd):/opt codecentric-cv-latex
+docker build -t cv-latex .
+docker run --rm -v $(pwd):/opt cv-latex
