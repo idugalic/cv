@@ -2,7 +2,6 @@
 
 .SUFFIXES:
 
-OPEN = $(shell which xdg-open || which open)
 
 all:
 	@echo "make clean -- cleans cv build"
@@ -18,4 +17,4 @@ setup:
 
 cv: clean
 	xelatex cv.tex
-	$(OPEN) cv.pdf
+
