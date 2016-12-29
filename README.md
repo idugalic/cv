@@ -5,7 +5,7 @@
 
 ## Running instructions
 ```bash
-$ cd cv-latex/
+$ cd cv/
 $ . ./docker-build.sh
 ```
 
